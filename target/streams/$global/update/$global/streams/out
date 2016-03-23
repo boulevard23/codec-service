@@ -1,26 +1,26 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/xiaowenwang/Development/experiment/akka-http/}akka-http...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#akka-http_2.11;1.0[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/xiaowenwang/Development/experiment/codec-service/}codec-service...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: akka-http#akka-http_2.11;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78afcc11[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@337224[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.2[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -55,14 +55,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->com.typesafe#config;1.3.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -170,14 +170,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->com.typesafe.akka#akka-parsing-experimental_2.11;2.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->com.typesafe.akka#akka-stream-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->com.typesafe.akka#akka-stream-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-http-experimental_2.11;2.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http-experimental_2.11;2.0.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-http-experimental_2.11;2.0.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-http-experimental_2.11;2.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -191,14 +191,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -232,14 +232,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->io.spray#spray-json_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->io.spray#spray-json_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.spray#spray-can_2.11;1.3.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-can_2.11;1.3.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-can_2.11;1.3.2[0m
 [0m[[0mdebug[0m] [0m	found io.spray#spray-can_2.11;1.3.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -332,18 +332,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-http_2.11;1.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.spray#spray-httpx_2.11;1.3.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-httpx_2.11;1.3.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-httpx_2.11;1.3.2[0m
 [0m[[0mdebug[0m] [0m	found io.spray#spray-httpx_2.11;1.3.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -385,14 +385,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.wix#accord-core_2.11;0.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.wix#accord-core_2.11;0.5 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.wix#accord-core_2.11;0.5[0m
 [0m[[0mdebug[0m] [0m	found com.wix#accord-core_2.11;0.5 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -434,14 +434,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->com.wix#accord-api_2.11;0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scalamacros#resetallattrs_2.11;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scalamacros#resetallattrs_2.11;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.scala-logging#scala-logging_2.11;3.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.scala-logging#scala-logging_2.11;3.1.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging_2.11;3.1.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.scala-logging#scala-logging_2.11;3.1.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -477,17 +477,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -510,10 +510,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -593,10 +593,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -608,10 +608,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -633,10 +633,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -703,14 +703,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-http_2.11;1.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -740,10 +740,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -773,10 +773,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -799,18 +799,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -833,10 +833,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -916,10 +916,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -931,10 +931,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -956,10 +956,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -1026,14 +1026,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-http_2.11;1.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -1063,10 +1063,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -1096,10 +1096,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -1122,21 +1122,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1159,10 +1159,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1242,10 +1242,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1257,10 +1257,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1282,10 +1282,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -1352,14 +1352,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-http_2.11;1.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -1389,10 +1389,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -1422,10 +1422,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -1448,20 +1448,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1484,10 +1484,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1567,10 +1567,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1582,10 +1582,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1607,10 +1607,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -1677,14 +1677,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-http_2.11;1.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -1714,10 +1714,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -1747,10 +1747,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -1773,20 +1773,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1809,10 +1809,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1892,10 +1892,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.11;2.0.3->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1907,10 +1907,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.0.3->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1932,10 +1932,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;2.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -2002,14 +2002,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-http_2.11;1.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can_2.11;1.3.2->io.spray#spray-util_2.11;1.3.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-can_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-json_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
@@ -2039,10 +2039,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-httpx_2.11;1.3.2->org.jvnet.mimepull#mimepull;1.9.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->io.spray#spray-httpx_2.11;1.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.wix#accord-core_2.11;0.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -2072,10 +2072,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalamacros#resetallattrs_2.11;1.0.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.wix#accord-core_2.11;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
@@ -2098,26 +2098,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.1.0->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http_2.11;1.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http#akka-http_2.11;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default][0m
@@ -2170,19 +2170,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
 [0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http#akka-http_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
@@ -2218,21 +2218,21 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 410ms :: artifacts dl 22ms[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 compile produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 runtime produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 test produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 provided produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 optional produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 compile-internal produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 runtime-internal produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 test-internal produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 plugin produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 sources produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 docs produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 pom produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http_2.11;1.0 scala-tool produced in /Users/xiaowenwang/Development/experiment/akka-http/target/resolution-cache/reports/default-akka-http_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (410ms resolve - 22ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 413ms :: artifacts dl 21ms[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 compile produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 runtime produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 test produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 provided produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 optional produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 compile-internal produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 runtime-internal produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 test-internal produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 plugin produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 sources produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 docs produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 pom produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http#akka-http_2.11;1.0 scala-tool produced in /Users/xiaowenwang/Development/experiment/codec-service/target/resolution-cache/reports/akka-http-akka-http_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (413ms resolve - 21ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mThere may be incompatibilities among your library dependencies.[0m
 [0m[[33mwarn[0m] [0mHere are some of the libraries that were evicted:[0m

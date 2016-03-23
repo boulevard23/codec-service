@@ -3,19 +3,19 @@ package com.boulevard23
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
-import com.boulevard23.routes.EncodingRoute
+import com.boulevard23.routes.{DecodingRoute, EncodingRoute}
 import com.boulevard23.services.Base64Service
 import com.typesafe.scalalogging.LazyLogging
+import akka.http.scaladsl.server.Directives._
 
-/**
-  * Created by xiaowenwang on 3/13/16.
-  */
-object Main extends LazyLogging with App {
+object Main extends App with LazyLogging {
   implicit val system = ActorSystem("encoding-service")
   implicit val materializer = ActorMaterializer()
   implicit val executionContext = system.dispatcher
 
-  val handler = new EncodingRoute(new Base64Service).route
+  val encodingRoute = new EncodingRoute(new Base64Service).route
+  val decodingRoute = new DecodingRoute(new Base64Service).route
+  val handler = encodingRoute ~ decodingRoute
   val (host, port) = ("localhost", 8110)
   val bindingFuture = Http().bindAndHandle(handler, host, port)
 

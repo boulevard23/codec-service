@@ -9,19 +9,19 @@ import com.wix.accord._
 import StatusCodes._
 import spray.json.{JsString, JsObject}
 
-class EncodingRoute(codec: CodecService) extends LazyLogging with Directives {
+class DecodingRoute(codec: CodecService) extends LazyLogging with Directives {
 
-  import EncodingJsonFormatters._
+  import DecodingJsonFormatters._
   import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport.sprayJsonMarshaller
 
   val route = {
-    pathPrefix("encoding") {
+    pathPrefix("decoding") {
       pathEndOrSingleSlash {
         post {
-          entity(as[EncodingRequest]) { request =>
+          entity(as[DecodingRequest]) { request =>
             com.wix.accord.validate(request) match {
               case com.wix.accord.Success =>
-                complete(EncodingResponse(codec.encode(request.text)))
+                complete(DecodingResponse(codec.decode(request.text)))
               case f@Failure(_) =>
                 complete(BadRequest, for {v <- f.violations} yield {
                   JsObject(Map("error" -> JsString(v.constraint),
